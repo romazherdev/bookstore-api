@@ -1,0 +1,16 @@
+{
+  "name": "bookstore-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json -m ./node_modules/json-server-auth -r routes.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0",
+    "nodemon": "2.0.20"
+  }
+}
